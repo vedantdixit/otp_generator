@@ -4,7 +4,7 @@ public class otpGenerator_logic_1 {
         System.out.println("OTP Generation System");
         Scanner sc = new Scanner(System.in);
         boolean b = false;
-        int otp = (int)(Math.random() * ((9999 - 1111)+1)) + 1111;
+        int otp = (int)(Math.random() * ((9999 - 1111)+1)) + 1111; //here, it will give 4 Digits, you can change it according to your need ;)
         System.out.println("OTP IS:" + otp);
         System.out.println("Enter OTP");
         int otp_in = sc.nextInt();
